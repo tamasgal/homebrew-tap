@@ -13,6 +13,6 @@ class Asciirc < Formula
   end
 
   test do
-    assert_match "asciirc 1.0.0", shell_output("#{bin}/asciirc -v")
+    assert_match "asciirc #{version}", shell_output("#{bin}/asciirc -v")
   end
 end
