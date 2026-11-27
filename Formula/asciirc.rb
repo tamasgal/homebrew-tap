@@ -1,8 +1,8 @@
 class Asciirc < Formula
   desc "Terminal Rocket.Chat client in the style of irssi"
   homepage "https://github.com/tamasgal/asciirc"
-  url "https://github.com/tamasgal/asciirc/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "5295380057d35d535afe62f8e64896cc9e777dc3a6289df890629e042bb18761"
+  url "https://github.com/tamasgal/asciirc/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "4ba65e2c2af4b58fdd87a45345621a28ae806bbb67eb44069bf1c0d8fdd4d25b"
   license "MIT"
 
   depends_on "pkgconf" => :build
